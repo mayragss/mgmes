@@ -1,0 +1,7 @@
+{
+  "buildCommand": "ng build --configuration production",
+  "outputDirectory": "dist/portfolio-mayra/browser",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
